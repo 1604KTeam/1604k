@@ -63,7 +63,7 @@ public class MainActivity extends BaseActivity{
         initTestData2();
         //computeListView();
         computeExpandableListView();
-
+        Log.e("myMessage","ss");
         loadData();
 
         new Handler().postDelayed(new Runnable() {
