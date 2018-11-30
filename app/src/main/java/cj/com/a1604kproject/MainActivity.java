@@ -64,6 +64,7 @@ public class MainActivity extends BaseActivity{
         //computeListView();
         computeExpandableListView();
         Log.e("myMessage","ss");
+       Log.e("1","1");
         loadData();
 
         new Handler().postDelayed(new Runnable() {
